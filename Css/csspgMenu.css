@@ -1,0 +1,39 @@
+body{
+	background-color:white;
+	font-family: 'arial';
+	
+}
+header h1{
+    font-size: 0pt;
+    color: #088A08;
+    font-size: 50pt;
+    margin-top: 10px;
+    padding: 0px;
+}
+header h2{
+    color: #088A08;
+    font-size: 30pt;
+  
+}
+.btn{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	margin:auto;
+	width:320px;
+	height:50px;
+	background-color:#088A08;
+	font-size:15px;
+	border-radius:15px;
+	color:white;
+}
+
+
+a:link,a:visited,a:active{
+    text-decoration: none;
+}
+
+
+
+
+

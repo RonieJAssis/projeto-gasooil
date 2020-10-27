@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title> Gasooil </title>
+	<link rel="stylesheet" type="text/css" href="Css/csspgCadastro.css"/>
+	<script src="JS/jquery-3.3.1.js"></script>
+		<script src="JS/jspgCadastro.js"></script>
+</head>
+<body>
+
+	<header>
+		
+	 <h1 align="center" id="titulo"> GASOOIL</h1>
+	  <h2 align="center">COMPARADOR DE PRECOS DE COMBUSTIVEIS!</h2>	
+	 </header>
+	<label></label> 
+	<div class="corpo">
+	<form action="Php/Cadastro.php" method="POST">
+	<div class="text">NOME</div>
+	<div class="mid">
+		<input type="text" style="text-align: center;" id="nome" name="nome"/>
+	</div>
+	<div class="text">TELEFONE</div>
+	<div class="mid">
+		<input type="tel" style="text-align: center;" id ="tel" name ="tel"/>
+	</div>
+	<div class="text">CPF</div>
+	<div class="mid">
+		<input type="text" style="text-align: center;" id ="cpf"  name ="cpf"/>
+	</div>
+	<div class="text">E-MAIL</div>
+	<div class="mid">
+		<input type="email" style="text-align: center;" id="email" name="email"/>	
+	</div>
+	<div class="text">SENHA</div>
+	<div class="mid">
+		<input type="password" style="text-align: center;" id="senha" name="senha"/>
+	</div>
+	<div class="text">CONFIRMAR SENHA</div>
+	<div class="mid">
+		<input type="password" style="text-align: center;" id="senha1" name="senha1"/>
+	</div>
+
+	<div class="caixabtn">
+		<a href="pgMenu.html"><input type="button" id="btn2" class="btn" value="VOLTAR"/></a> 
+		<input type="submit" id="btn1" class="btn" value="CADASTRAR"/> 
+	</div>
+	</form>
+	</div>
+</body>
+</html>
